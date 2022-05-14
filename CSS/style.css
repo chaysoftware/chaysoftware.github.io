@@ -1,7 +1,21 @@
 body{
-    background-color: rgb(180, 180, 180)
+    background-color: rgb(20, 20, 20)
 }
-h1, p, a{
-    color: rgb(26, 26 ,26);
-    font-family: arial;
+h1{
+    color: rgb(140, 10 , 0);
+    font-family: 'Oswald', sans-serif;
 }
+a, p{
+    color: wheat;
+    font-family: 'Noto Sans Mono', monospace;
+}
+  ul.sidebar {
+    margin: 0; /* Обнуляем значение отступов */
+    padding: 4%; /* Значение полей */
+   }
+   ul.sidebar li {
+    display: inline; /* Отображать как строчный элемент */
+    margin-right: 0.5%; /* Отступ слева */
+    border: 1% solid #000; /* Рамка вокруг текста */
+    padding: 3%; /* Поля вокруг текста */
+   }
